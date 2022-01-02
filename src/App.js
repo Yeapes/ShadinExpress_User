@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Alert } from 'react-bootstrap';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+class App extends  Component {
+    render() { 
+        return <div><Alert variant="success">
+        <Alert.Heading>Hey, nice to see you</Alert.Heading>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Aww yeah, you successfully read this important alert message. This example
+          text is going to run a bit longer so that you can see how spacing within an
+          alert works with this kind of content.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <hr />
+        <p className="mb-0">
+          Whenever you need to, be sure to use margin utilities to keep things nice
+          and tidy.
+        </p>
+      </Alert></div>;
+    }
 }
-
+ 
 export default App;
