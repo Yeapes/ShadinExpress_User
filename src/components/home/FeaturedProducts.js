@@ -1,6 +1,11 @@
-class FeaturedProducts extends React.Component {
+import React, { Component, Fragment } from 'react';
+class FeaturedProducts extends  Component {
     render() { 
-        return <div></div>;
+        return(
+            <Fragment>
+
+            </Fragment>
+        );
     }
 }
  

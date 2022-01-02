@@ -1,6 +1,11 @@
+import React, { Component, Fragment } from 'react';
 class Categories extends React.Component {
     render() { 
-        return <div></div>;
+        return(
+            <Fragment>
+
+            </Fragment>
+        );
     }
 }
  

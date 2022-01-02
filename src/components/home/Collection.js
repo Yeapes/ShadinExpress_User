@@ -1,6 +1,12 @@
-class Collection extends React.Component {
+import React, { Component, Fragment } from 'react';
+
+class Collection extends Component {
     render() { 
-        return <div></div>;
+        return(
+            <Fragment>
+
+            </Fragment>
+        );
     }
 }
  

@@ -1,6 +1,11 @@
-class FooterMobile extends React.Component {
+import React, { Component, Fragment } from 'react';
+class FooterMobile extends Component {
     render() { 
-        return <div></div>;
+        return(
+            <Fragment>
+
+            </Fragment>
+        );
     }
 }
  
