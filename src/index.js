@@ -1,16 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom'; 
+import ReactDOM from 'react-dom';  
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import './assets/css/fontawesome.css'
-import App from './App';
-
+import App from './App'; 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from './pages/HomePage';
+ 
+ 
 
-ReactDOM.render(
-  <React.StrictMode>
-      <App />
-  </React.StrictMode>,
+ReactDOM.render( 
+  <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<App />} /> 
+        <Route path="test" element={<HomePage />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
