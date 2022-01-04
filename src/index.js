@@ -11,7 +11,7 @@ import App from './App';
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage';
- 
+import './assets/css/animate.css' 
  
 
 ReactDOM.render( 
